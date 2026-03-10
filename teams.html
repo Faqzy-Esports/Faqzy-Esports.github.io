@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faqzy Esports - Teams</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<nav class="navbar">
+    <div class="logo">Faqzy Esports</div>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="teams.html">Teams</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="faq.html">Faq</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="burger" id="burger">
+        <div></div><div></div><div></div>
+    </div>
+</nav>
+</header>
+
+<main>
+
+<section class="section" id="teamList">
+<h2>Our Teams</h2>
+<div class="team-grid">
+
+<div class="team-card" onclick="openTeam('nst')">
+    <img src="nst.png" class="team-icon">
+    <h3>Team NST</h3>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="teamDetail" style="display: none;">
+<div class="team-detail" id="teamContent">
+</div>
+</section>
+
+</main>
+
+<footer>
+<p>&copy; 2026 Faqzy Esports. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
