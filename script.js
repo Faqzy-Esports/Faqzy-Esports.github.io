@@ -103,9 +103,9 @@ const teams = {
     </div>
     `
   },
-  Kyzen: {
+  kyzen: {
   name: "Team Kyzen",
-  logo: "Kyzen.png",
+  logo: "kyzen.png",
 
   description: `
     <strong>About Team Kyzen:</strong> Faqzy Esports - Team Kyzen is a competitive Rocket League team focused on synergy, mechanical skill, and adapting quickly during matches. With a mix of experienced players and promising talent, they aim to rise through the ranks while maintaining strong communication and coordination.  
