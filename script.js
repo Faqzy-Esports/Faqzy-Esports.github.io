@@ -103,7 +103,7 @@ const teams = {
     </div>
     `
   },
-  kyzen: {
+  Kyzen: {
   name: "Team Kyzen",
   logo: "Kyzen.png",
 
